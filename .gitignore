@@ -1,0 +1,17 @@
+credentials.json
+
+data/invoices/*
+data/archive/*
+data/duplicates/*
+data/unmatched/*
+data/bank_statements.csv
+!data/invoices/.gitkeep
+!data/archive/.gitkeep
+!data/duplicates/.gitkeep
+!data/unmatched/.gitkeep
+
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
